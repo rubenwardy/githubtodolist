@@ -1,0 +1,25 @@
+{
+  "name": "githubtodolist",
+  "version": "1.0.0",
+  "description": "Autocomment on new GitHub PRs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/rubenwardy/githubtodolist.git"
+  },
+  "author": "rubenwardy",
+  "license": "LGPL-2.1",
+  "bugs": {
+    "url": "https://github.com/rubenwardy/githubtodolist/issues"
+  },
+  "homepage": "https://github.com/rubenwardy/githubtodolist#readme",
+  "dependencies": {
+    "co-body": "^5.1.1",
+    "koa": "^2.4.1",
+    "koa-body": "^2.5.0",
+    "koa-router": "^7.3.0"
+  }
+}
