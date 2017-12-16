@@ -40,4 +40,6 @@ app.post("/webhook", async (ctx) => {
 
 koa.use(app.routes())
 koa.use(app.allowedMethods())
-koa.listen(3000)
+let port = process.env.PORT || 3000
+console.log("GitHub todo list bot listening on port " + port)
+koa.listen(port)
